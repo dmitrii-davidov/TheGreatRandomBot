@@ -87,5 +87,4 @@ if __name__ == '__main__':
     print('Listening ...')
     while True:
         sys.stdout.flush()
-
         time.sleep(10)
