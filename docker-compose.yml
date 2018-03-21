@@ -1,0 +1,14 @@
+version: "2"
+
+
+services:
+
+  main:
+    build:
+      context: .
+      dockerfile: ./dockerfile
+    env_file:
+      - .env
+    ports:
+      - 3010:3010
+    restart: unless-stopped
